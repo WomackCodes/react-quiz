@@ -20,4 +20,19 @@ body {
     box-sizing: border-box;
     font-family: 'Catamaran', sans-serif;
 }
+`;
+
+export const Wrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    > p {
+        color: #fff;
+    }
+
+    .score {
+        
+    }
+
 `

@@ -72,6 +72,8 @@ console.log(questions);
   };
 
   return (
+    <>
+    <GlobalStyle />
     <div className="App">
       <h1>React Quiz</h1>
       {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
@@ -97,6 +99,7 @@ console.log(questions);
         </button>
         ) : null}
     </div>
+    </>
   );
 }
 
